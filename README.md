@@ -1,6 +1,6 @@
 # Internet History of Denmark — Tech Timeline
 
-Web project presenting an interactive timeline of Danish internet history, backed by a Node.js/Express REST API.
+Web project presenting an interactive timeline of Danish internet history. Full-stack application featuring an interactive timeline served by a custom REST API and template engine. Structured page layout, navigation, and responsive CSS styling implemented.
 
 
 ## Project Structure
