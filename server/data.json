@@ -1,0 +1,107 @@
+{
+  "homeText": "Welcome! This website explores the history of the Internet in Denmark. Over the past few decades, the internet has transformed from a small academic network into an essential part of everyday life for nearly all Danes. From the early modem connections of the 1990s and the rise of Danish web portals, to the expansion of broadband, mobile internet, and modern streaming services, the development of the internet has played a major role in shaping communication, media, and digital society in Denmark. This site presents a timeline of key events, technologies, and challenges that influenced how the internet grew and evolved in the country. To learn more about how Denmark became one of the world’s most connected societies, click the “Timeline of the Danish Internet” link to explore each decade in greater detail.",
+  "aboutText": "This project was created as part of the final coursework for the Web Development (CM1040) course at the University of London, Goldsmiths, taught by Dr. Matthew Yee-King. The goal of the project was to demonstrate practical competency in modern web development concepts and techniques. As part of the assignment, the website was developed using valid HTML structure, CSS styling, and a course-created template engine to generate dynamic pages. The project also retrieves JSON data via a RESTful API, showing how external data sources can be integrated into modern, interactive web applications. Together, these elements demonstrate key skills in front-end web development, structured data management, and modern web design practices.",
+  "referencesText": "Bech, M. (n.d.) History of DENet. Available at: https://www.denet.dk/history/ (Accessed: 25 February 2026).\n \nMeyhoff, P. (n.d.) Internettets udvikling i Danmark. Danmarks Teknologihistorie. Available at: https://www.danmarksteknologihistorie.dk/internettets-udvikling-i-danmark/ (Accessed: 25 February 2026).\n \nHenten, A. and Falch, M., 2011. Broadband development in Denmark. Paper presented at the European Regional ITS Conference, Budapest, Hungary, 19\u201322 September. Available at: https://vbn.aau.dk/ws/portalfiles/portal/66922554/ITS_Budapest_Broadband_in_Denmark.pdf (Accessed 3 Jan. 2026).",
+  "timeline": [
+    {
+      "id": 1,
+      "year": "1990",
+      "displayYear": "1990's",
+      "tech": [
+        "World Wide Web",
+        "Analog modems over copper phone lines",
+        "ISDN (128 Kb/s)",
+        "Early web portals: Jubii, Yahoo!",
+        "TCP/IP networking via DENet/UNI-C"
+      ],
+      "events": [
+        "UNI-C offers first private internet access",
+        "First PPP-based internet service introduced (“Internet Service 2000”)",
+        "Internet monopoly abolished",
+        "First commercial dial-up ISPs appear"
+      ],
+      "challenges": [
+        "Limited internet connectivity",
+        "Low bandwidth and slow speeds",
+        "Expensive hardware and software",
+        "Limited awareness and adoption among households"
+      ],
+      "text": "The modern internet began reaching Denmark in the early 1990s through academic and government networks. Earlier groundwork had already been laid in the late 1980s when the Danish Computing Centre for Research and Education, UNI-C, created a nationwide network based on the TCP/IP protocol. This network later evolved into the Danish Educational Network (DENet) and connected Danish research institutions to international networks such as NORDUnet. In 1993, UNI-C became the first organization in Denmark to offer internet connections to private individuals. Early access relied on modem connections over existing telephone lines and required text-based login systems. By the end of 1994, a newer service called Internet Service 2000 introduced PPP (Point-to-Point Protocol) access, allowing users to browse the World Wide Web. During this period, the internet was often navigated through web portals rather than modern search engines. Early portals such as Yahoo! (1994) inspired Danish versions like Jubii, which became one of the most popular Danish websites. Search engines were still developing, though WebCrawler (1994) represented an early attempt to index the entire web. The mid-1990s also saw the end of the state monopoly on internet access. In 1995 the monopoly was abolished, leading to the emergence of multiple private internet providers competing to deliver service. In 1997 UNI-C sold its commercial internet operations to Netcom, marking a transition toward privatized internet. However, accessing the internet remained slow and expensive for most users. Connections were typically made through analog modems over copper telephone lines, meaning users could either use the phone or access the internet, but not both simultaneously. Later in the decade, ISDN (Integrated Services Digital Network) technology allowed limited simultaneous voice and internet connections with speeds up to 128 Kb per second. Another major event at the end of the decade was the rapid rise of internet companies during the dot-com boom. Danish web companies such as Jubii, Netdoktor, and Aarstiderne emerged during this period."
+    },
+    {
+      "id": 2,
+      "year": "2000",
+      "displayYear": "2000's",
+      "tech": [
+        "ADSL broadband (up to 20 Mb/s download, 5 Mb/s upload)",
+        "Early fiber networks",
+        "Mobile broadband",
+        "Streaming platforms",
+        "Podcasts via iTunes"
+      ],
+      "events": [
+        "Dot-com bubble burst",
+        "Jubii sold to Lycos",
+        "71–74% of households online",
+        "Launch of first Danish fiber networks",
+        "Continued privatization and growth of ISP market"
+      ],
+      "challenges": [
+        "Dot-com crash recovery",
+        "Internet security concerns",
+        "Broadband infrastructure uneven across regions",
+        "Rapidly changing market"
+      ],
+      "text": "The early 2000s were shaped by the collapse of the dot-com bubble, which began in the United States in March 2000 and also affected Denmark. Many internet companies had been valued far above their actual earnings due to excitement about the commercial potential of the web. When investment confidence collapsed, numerous companies went bankrupt. Although Danish companies were affected, the impact was somewhat less dramatic than in the United States. Some Danish entrepreneurs managed to sell their companies before the crash. For example, the Danish portal Jubii was sold to the American company Lycos in 2000, though the service later declined and eventually disappeared. Despite the financial crisis, internet usage in Denmark continued to grow rapidly. Around 46% of Danish households had internet access in 2000, increasing to about 74% by 2005. Technologically, the decade saw major improvements in internet infrastructure. ADSL (Asymmetric Digital Subscriber Line) connections began replacing older dial-up technologies, providing faster download speeds and enabling new services such as video-on-demand. Broadband became the dominant marketing term for faster internet services, although early versions were still limited compared with modern standards. Denmark also began deploying new network technologies during this time. Fiber networks started rolling out in 2005, while the first mobile broadband networks were introduced in 2007 by the mobile operator 3. These developments began shifting internet use from fixed desktop connections toward mobile devices. Meanwhile, the internet started transforming media consumption. The video platform YouTube launched in 2005 (arriving in Denmark in 2009), and podcast distribution began growing through platforms like Apple’s iTunes around 2005. These technologies allowed ordinary users to produce and distribute media independently of traditional broadcasters."
+    },
+    {
+      "id": 3,
+      "year": "2010",
+      "displayYear": "2010's",
+      "tech": [
+        "Widespread broadband and fiber connections",
+        "Mobile internet via smartphones and laptops",
+        "Streaming services: Netflix, HBO Nordic, YouTube",
+        "Cloud computing services",
+        "Podcasting and user-generated content platforms"
+      ],
+      "events": [
+        "Broadband overtakes ADSL as primary connection type",
+        "Netflix and HBO Nordic launch in Denmark",
+        "YouTube and other streaming platforms become widely used",
+        "Nearly universal internet access (~97% of households)"
+      ],
+      "challenges": [
+        "Maintaining high-speed connections across all regions",
+        "Shift from traditional media (TV, radio, print) to digital platforms",
+        "Cloud security issues",
+        "Increased demand on infrastructure from streaming and mobile usage"
+      ],
+      "text": "By the 2010s, internet access had become nearly universal in Denmark. Around 97% of households eventually gained access to the internet, and broadband connections became the standard way to connect. During this period, fiber networks and mobile broadband continued expanding, while ADSL remained common until around 2010 before gradually being replaced by newer technologies. Mobile devices such as smartphones and laptops became the primary way many people accessed the internet. The decade was also marked by a major shift in media consumption toward online streaming. Services such as Netflix and HBO Nordic launched in Denmark in 2012, dramatically changing how people watched television and films. YouTube also became one of the most widely used streaming platforms in the country. By 2019, streaming accounted for about 15% of overall media consumption among Danes and around 25% among people aged 15–31. Younger audiences began spending far less time with traditional broadcast television, radio, and printed media. The growth of the internet also enabled individuals to become content producers rather than just consumers. Platforms such as YouTube allowed users to publish their own video content, while podcasts became widely distributed online. However, the expansion of private internet providers also created uneven coverage across the country. Areas with higher population density tended to receive better internet and mobile coverage than rural regions."
+    },
+    {
+      "id": 4,
+      "year": "future",
+      "displayYear": "2020's and the Future",
+      "tech": [
+        "Quantum computing",
+        "Advanced AI and AGI",
+        "Fiber and high-speed broadband networks",
+        "Mobile 4G/5G networks",
+        "Multi-device access (phones, laptops, tablets)"
+      ],
+      "events": [
+        "Ongoing expansion of private broadband and mobile networks",
+        "Continued growth of streaming, podcasts, and online content creation",
+        "Internet regarded as essential national infrastructure"
+      ],
+      "challenges": [
+        "AI safety and alignment",
+        "Job displacement from automation",
+        "Competition and pricing differences between private network providers",
+        "Balancing infrastructure ownership and public access needs"
+      ],
+      "text": "Today the internet is considered a critical part of Denmark’s national infrastructure. Most Danes access the internet through broadband connections, and a large portion of usage now occurs on mobile devices. Internet infrastructure in Denmark is largely owned by private companies, including major telecommunications providers and regional energy companies that supply fiber networks. The privatized system has created a competitive market but also leads to differences in internet availability and pricing depending on location. Streaming services, online media, and digital platforms continue to expand their influence on Danish culture and communication. The internet has also enabled greater personalization in media consumption, allowing individuals to choose from a wide variety of entertainment, news, and information sources. At the same time, the continued expansion of digital networks raises questions about infrastructure ownership, service quality, and equal access. Ensuring reliable high-speed internet across all regions remains an ongoing challenge as Denmark moves further into a fully digital society."
+    }
+  ]
+}

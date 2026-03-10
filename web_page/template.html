@@ -1,0 +1,8 @@
+<!--Template, used by SimpleTemplateEngine, to render Tech, Events, and Challenges API data to index.html-->
+<div>
+    <h3>{{displayYear}}</h3>
+    <p>{{text}}</p>
+    <p><strong>Technology:</strong> {{#each tech}}<span>{{this}}</span>{{/each}}</p>
+    <p><strong>Events:</strong> {{#each events}}<span>{{this}}</span>{{/each}}</p>
+    <p><strong>Challenges:</strong> {{#each challenges}}<span>{{this}}</span>{{/each}}</p>
+</div>

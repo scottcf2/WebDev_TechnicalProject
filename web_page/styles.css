@@ -1,0 +1,184 @@
+/* CSS STYLES */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #f4f6f9;
+    color: #1a1a2e;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar */
+nav {
+    background-color: #0d1b2a;
+    padding: 0 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem 0;
+    color: #e0e8f0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+/*nav bar mouse hover effect */
+nav ul li a:hover {
+    color: #4da6ff;
+}
+
+/*header */
+header {
+    background: linear-gradient(135deg, #0d1b2a 0%, #1a3a5c 100%);
+    color: #ffffff;
+    padding: 3rem 2rem 2.5rem;
+    text-align: center;
+}
+
+/*headings */
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 2.4rem;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    color: #0d1b2a;
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 3px solid #4da6ff;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 1.1rem;
+    color: #1a3a5c;
+    margin: 1rem 0 0.4rem;
+}
+
+/*main content area */
+main {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+/*time period sections */
+section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+/*text block */
+.text-block {
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #2c2c2c;
+}
+
+/*form */
+form {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+form label {
+    font-weight: 600;
+    color: #0d1b2a;
+}
+
+form select {
+    padding: 0.5rem 0.8rem;
+    border: 2px solid #4da6ff;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    background: #fff;
+    color: #1a1a2e;
+}
+
+form button {
+    padding: 0.5rem 1.2rem;
+    background-color: #1a3a5c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/*form button mouse hover effect */
+form button:hover {
+    background-color: #4da6ff;
+    color: #0d1b2a;
+}
+
+/*links */
+a {
+    color: #1a6fbb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #4da6ff;
+}
+
+/*back to top */
+.text-center {
+    text-align: center;
+    margin-top: 1.2rem;
+    font-size: 0.9rem;
+}
+
+/*home/about page paragraph */
+#homeText, #aboutText {
+    max-width: 800px;
+    margin: 2rem auto;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #2c2c2c;
+}
+
+/*top-bar 'jump to' nav */
+.top-bar {
+    background-color: #1a3a5c;
+    padding: 0.5rem 2rem;
+}
+
+.top-bar a {
+    color: #c8dff0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-right: 1.5rem;
+}
+
+/*'jump to' nav mouse hover effect */
+.top-bar a:hover {
+    color: #4da6ff;
+    text-decoration: none;
+}

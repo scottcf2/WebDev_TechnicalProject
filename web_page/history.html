@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History of the Danish Internet</title>
+    <!-- CSS style sheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- link to script -->
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- SITE NAVBAR -->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">
+                    Home Page
+                </a>
+            </li>
+            <li>
+                <a href="history.html">
+                    Timeline of the Danish Internet
+                </a>
+            </li>
+            <li>
+                <a href="about.html">
+                    About Project and Contact
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- PAGE NAVBAR -->
+    <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+        <div class="title-bar-title">Jump to:</div>
+    </div>
+
+    <div class="top-bar" id="main-menu">
+        <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li><a href="#1990">1990's</a></li>
+                <li><a href="#2000">2000's</a></li>
+                <li><a href="#2010">2010's</a></li>
+                <li><a href="#future">2020's and the Future</a></li>
+                <li><a href="#references">References</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <header>
+        <h1>Timeline of the Danish Internet</h1>
+    </header>
+    <main>
+        <h2 style="text-align: left;">Highlights by Year</h2>
+        <form id="entriesByYearForm">
+            <label for="yearFilter">Year:</label>
+            <select id="yearFilter" name="yearFilter" required>
+                <option value="">-- Choose a year --</option>
+                <option value="1990">1990's</option>
+                <option value="2000">2000's</option>
+                <option value="2010">2010's</option>
+                <option value="future">2020's and the Future</option>
+            </select>
+            <button type="submit">Get Highlights</button>
+        </form>
+        <div id="entriesByYear"></div>
+        <section id="1990">
+            <div class="grid-container">
+                <div class="timeline-data text-block"></div>
+            </div>
+        </section>
+
+        <section id="2000">
+            <div class="grid-container">
+                <div class="timeline-data text-block"></div>
+            </div>
+            <p class="text-center"><a href="#top">Back to top</a></p>
+        </section>
+
+        <section id="2010">
+            <div class="grid-container">
+                <div class="timeline-data text-block"></div>
+            </div>
+            <p class="text-center"><a href="#top">Back to top</a></p>
+        </section>
+
+        <section id="future">
+            <div class="grid-container">
+                <div class="timeline-data text-block"></div>
+            </div>
+            <p class="text-center"><a href="#top">Back to top</a></p>
+        </section>
+
+        <section id="references">
+            <div class="grid-container">
+                <h2 style="text-align: left;">References</h2>
+                <p id="referencesText" style="text-align: left; white-space: pre-line; line-height: 1.6;"></p>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
