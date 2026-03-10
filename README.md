@@ -20,7 +20,7 @@ WebDev_TechnicalProject/
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) (v18 or later recommended)
+- [Node.js](https://nodejs.org/) 
 
 
 ## Running the Server
